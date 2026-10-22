@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+.navbar{
+    background-color: rgb(144, 144, 244);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.link{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.btn{
+    background-color: azure;
+    color: black;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    width: 100px;
+    transition: all 1s;
+}
+
+
+.btn:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+    
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.logo img{
+    width: 120px;
+    border-radius: 100px;
+}
