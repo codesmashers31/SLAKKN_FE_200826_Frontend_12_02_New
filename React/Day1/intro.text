@@ -1,0 +1,56 @@
+JS - 
+Callback 
+Async & Await
+ES6+
+Closer
+import & Export 
+
+
+React - 3 & React 4  - VITE
+Node - Run time Envirenment
+React 3 -
+npm & npx
+npm - node package manager
+npx - node package execute
+Project Setup
+
+CRA - create react app
+npx create-react-app myfirstapp
+setup - node modules - package.json - image - files src - index.html - index.js
+
+Project Build
+Webpack
+Bundler
+Build
+Vitual DOM
+Components
+
+React 4  - VITE 7/8
+ESBuild
+Rollup
+RollDOWN
+
+Project Setup 
+npm create vite@latest firstapp
+
+Types of React Projects
+
+1. Create Phase
+    1. Project Setup
+    2. Components - Muilt Adding - Single Adding
+        js - jsx - javascript xml
+    3. CSS - IMAGES - Tailwindcss. 
+    4. Rendering
+    5. React-Router-DOM
+    6. Props
+2. Update Phase
+    1. Events & Functions With Closers
+    2. Intractive - With Rendering Methods
+    3. Hooks
+    4. Props
+    5. Life Cycle Methods
+    6. Fetch API & Browser Events
+    7. Form Handling  Login & Regsiter - Dashborad - with Localstrage
+
+
+One Project with Ai Collaburation
