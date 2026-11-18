@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
-const NavBar = () => {
+const NavBar = ({addtocart}) => {
 
 
  const [shwoDatas,setShowiDatas] = useState(null)
@@ -25,6 +25,7 @@ const NavBar = () => {
             <Link to={"/register"}>Register</Link>
             <Link to={"/login"}>Login</Link>
             <Link to={"/"}>{shwoDatas==null?"Home":shwoDatas.userName}</Link>
+            <p>{addtocart}</p>
         </div>
     </div>
     </>
