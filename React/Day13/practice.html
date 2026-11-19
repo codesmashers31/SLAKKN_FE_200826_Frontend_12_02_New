@@ -1,0 +1,207 @@
+<!-- <script>
+
+
+
+   const theird = () => {
+
+    let numbers = [12,45,78,23,80,90,65]
+
+   
+    let rajini = -Infinity;
+
+    let vijai =  -Infinity;
+    
+    let ajith = -Infinity;
+
+    let surya = -Infinity;
+
+    for(let i=0;i<numbers.length;i++){
+
+
+        let num = numbers[i]
+
+
+        // console.log(num);
+
+
+        if(num > rajini){
+
+             ajith = vijai
+
+
+             vijai = rajini
+
+
+             rajini = num
+
+        }else if (num < rajini && num > vijai) {
+             
+              ajith = vijai
+
+              vijai = num
+
+        }else if (num < vijai && num > ajith) {
+
+                  
+            ajith = num
+   
+
+        }
+
+
+
+    
+        
+        
+        
+        
+    
+      
+
+
+    }
+
+        console.log(rajini);
+        console.log(vijai);
+
+        console.log(ajith);
+
+         
+
+     
+   }
+
+
+   theird()
+
+
+
+   
+
+
+</script> -->
+
+
+
+
+
+<script>
+    
+// let ranijini = "Madam"
+
+
+// let vijai = "";
+
+
+// for(let i = ranijini.length-1 ; i>=0;i--){
+
+//     //    console.log(ranijini[i]);
+
+//       vijai += ranijini[i]
+
+//     //   console.log(vijai);
+      
+
+// }
+
+// console.log(vijai);
+
+
+// if(ranijini.toLowerCase===vijai.toLowerCase){
+//     console.log('====================================');
+//     console.log("Its is Polintro");
+//     console.log('====================================');
+// }
+// else{
+//     console.log('====================================');
+//     console.log("Not Pelonter");
+//     console.log('====================================');
+// }
+
+
+
+
+let sentance = "I am Java Script"
+
+
+
+
+
+let rajini = 0
+
+
+
+let vijai = false
+
+
+
+for(let i =0;i<sentance.length;i++){
+
+
+     let letters = sentance[i]
+
+
+   if(letters === " "){
+
+      
+    vijai = false
+   
+     
+   }else if(vijai == false) {
+
+         rajini ++
+
+         vijai = true
+     
+   }
+
+
+
+
+
+}
+
+console.log('====================================');
+console.log(rajini);
+console.log('====================================');
+
+
+
+
+
+
+</script>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Change</title>
+</head>
+<body id="all" style="background-color: red;">
+    <button onclick="handleClick()">Color Change</button>
+</body>
+
+
+<script>
+    let color = document.getElementById("all")
+
+  const handleClick = ()=>{
+
+
+    color.style.backgroundColor = "blue"
+
+  }
+
+
+  
+    
+</script>
+</html>
+
+
+
+
+
